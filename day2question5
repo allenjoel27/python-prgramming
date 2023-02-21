@@ -1,5 +1,5 @@
-r=int(input("enter thr number of rows:"))
-c=int(input("enter thr number:"))
+r=int(input("enter the number of rows:"))
+c=int(input("enter the number:"))
 if r>0 and c>0:
     for i in range(1,r+1):
         for space in range(1,r-i+1):
